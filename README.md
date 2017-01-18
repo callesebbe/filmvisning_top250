@@ -3,13 +3,13 @@
 
 Python Modules needed:
     ``` 
-    requests
-    re
-    imdb
-    progressbar
-    time
-    pickle
+    requests,
+    re,
+    imdb,
+    progressbar,
+    time,
+    pickle,
     ```
-just run `python retrieve_top250.py`
+just run `python retrieve_top250.py`  
 and chose from the menu.
 
