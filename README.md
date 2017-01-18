@@ -1,4 +1,4 @@
-# filmvisning_projekt
+# imdb_top250 
 ##To retrieve the current top 250-Movies from Imdb.
 
 Python Modules needed:
