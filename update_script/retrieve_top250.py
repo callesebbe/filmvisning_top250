@@ -146,7 +146,10 @@ def main():
         if selection =='1':
             update_lists()
         elif selection == '2':
-            print_list()
+            if len(listOfmovieIds) == 0:
+                print bcolors.WARNING+"Nothing gathered."+bcolors.ENDC
+            else:
+                print_list()
         elif selection == '3':
             save_lists_toFile()
             print "####Saved all lists to file.####"
@@ -154,7 +157,10 @@ def main():
             fetch_lists_fromFile()
             print "####Fetched all lists from file.####"
         elif selection == '5':
-            update_mysql_db_query()
+            if len(listOfmovieIds) == 0:
+                print bcolors.WARNING+"Nothing gathered."+bcolors.ENDC
+            else:
+                update_mysql_db_query()
             print "####Saved query to file output.txt.####\nThe sql only includes Title, ID & Movie-photo"
         elif selection == '6':
             ##save_lists_toFile()
