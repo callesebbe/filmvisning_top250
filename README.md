@@ -1,2 +1,15 @@
 # filmvisning_projekt
-To keep check of which movies we've seen in the film-group.
+##To retrieve the current top 250-Movies from Imdb.
+
+Python Modules needed:
+    ``` 
+    requests
+    re
+    imdb
+    progressbar
+    time
+    pickle
+    ```
+just run `python retrieve_top250.py`
+and chose from the menu.
+
